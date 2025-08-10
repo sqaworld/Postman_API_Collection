@@ -2,8 +2,7 @@
 name: Run Postman Collection
 
 on:
-  schedule:
-  - cron: "0 9 * * *"
+  workflow_dispatch:
 
 jobs:
   postman:
